@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Private Build Java 17.0.6)
+[debug]       Load.loadUnit: plugins took 98.559918ms
+[debug]       Load.loadUnit: defsScala took 0.401577ms
+[debug] [Loading] Scanning directory /home/marcel/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/marcel/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.186926 ms
+[debug]           Load.resolveProject(global-plugins) took 63.06881ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/marcel/.sbt/1.0/plugins, plugins: List(<none>))) took 128.771773ms
+[debug] [Loading] Done in /home/marcel/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 180.853647ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.390499ms
+[debug]     Load.loadUnit(file:/home/marcel/.sbt/1.0/plugins/, ...) took 292.898185ms
+[debug]   Load.apply: load took 520.897805ms
+[debug]   Load.apply: resolveProjects took 7.195422ms
+[debug]   Load.apply: finalTransforms took 113.239521ms
+[debug]   Load.apply: config.delegates took 6.962917ms
+[debug]   Load.apply: Def.make(settings)... took 545.076979ms
+[debug]   Load.apply: structureIndex took 159.853218ms
+[debug]   Load.apply: mkStreams took 1.932074ms
+[info] loading global plugins from /home/marcel/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4956.270608ms
+[debug]           Load.loadUnit: plugins took 19.738264ms
+[debug]           Load.loadUnit: defsScala took 0.004883ms
+[debug] [Loading] Scanning directory /home/marcel/Desktop/sem 2/pp/curs/curs 1/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/marcel/Desktop/sem 2/pp/curs/curs 1/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.892175 ms
+[debug]               Load.resolveProject(curs-1-build) took 1.462736ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id curs-1-build, base: /home/marcel/Desktop/sem 2/pp/curs/curs 1/project, plugins: List(<none>))) took 5.095193ms
+[debug] [Loading] Done in /home/marcel/Desktop/sem 2/pp/curs/curs 1/project, returning: (curs-1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7.36615ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.015934ms
+[debug]         Load.loadUnit(file:/home/marcel/Desktop/sem%202/pp/curs/curs%201/project/, ...) took 28.003114ms
+[debug]       Load.apply: load took 30.07598ms
+[debug]       Load.apply: resolveProjects took 0.140286ms
+[debug]       Load.apply: finalTransforms took 17.278845ms
+[debug]       Load.apply: config.delegates took 0.581345ms
+[debug]       Load.apply: Def.make(settings)... took 93.666994ms
+[debug]       Load.apply: structureIndex took 43.445109ms
+[debug]       Load.apply: mkStreams took 0.003162ms
+[info] loading project definition from /home/marcel/Desktop/sem 2/pp/curs/curs 1/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 612.695439ms
+[debug]     Load.loadUnit: defsScala took 0.005081ms
+[debug] [Loading] Scanning directory /home/marcel/Desktop/sem 2/pp/curs/curs 1
+[debug]       Load.loadUnit: mkEval took 6.126946ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.963604 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.16053ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/marcel/Desktop/sem 2/pp/curs/curs 1, plugins: List(<none>))) took 5.027864ms
+[debug] [Loading] Done in /home/marcel/Desktop/sem 2/pp/curs/curs 1, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2865.17557ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.756481ms
+[debug]   Load.loadUnit(file:/home/marcel/Desktop/sem%202/pp/curs/curs%201/, ...) took 3481.426722ms
+[debug] Load.apply: load took 3483.41377ms
+[debug] Load.apply: resolveProjects took 0.112993ms
+[debug] Load.apply: finalTransforms took 10.673402ms
+[debug] Load.apply: config.delegates took 0.345144ms
+[debug] Load.apply: Def.make(settings)... took 158.778572ms
+[debug] Load.apply: structureIndex took 50.770606ms
+[debug] Load.apply: mkStreams took 0.003208ms
+[info] set current project to curs 1 (in build file:/home/marcel/Desktop/sem%202/pp/curs/curs%201/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/marcel/.sbt/1.0/server/a71ad36aeae3b1d1bc0b/sock
+[debug] Writing bsp connection file
+[info] started sbt server
