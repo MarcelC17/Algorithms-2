@@ -1,0 +1,13 @@
+Tema 2
+
+Ex 1
+
+Pentru a determina daca graful are ciclu pastrez datele de 
+intrare in vector<vector<int>> next_nodes. Acesta 
+este structurat astfel incat vecinii nodului cu o anumita 
+valoare sunt la pozitia acestuia in vector(astfel vecinii nodului 1
+se afla pe pozitia 1 a vectorului). Efectuez DFS din fiecare
+nod al grafului memorand nodurile vizitate in vector<bool> vizited
+(daca nodul a fost dat ca parametru functiei traverse valoarea de pe pozitia 
+respectiva in vector se schimba in True). Daca un nod deja vizitat 
+este dat ca parametru functiei traverse a fost identificat un ciclu.
